@@ -114,7 +114,10 @@
   .home-img{
     order: 3;
   }.home-img img{
-    width: 100%;
+    width: 300px;
+    height: 300px;
+    clip-path: circle(50%);
+
   }
   .home-text{
     font-size: var(--medium-font);
@@ -200,9 +203,9 @@
     margin-top: 4rem;
   }
   .skill-img img{
-    width: 80%;
-    padding-left: 4rem;
+    width: 100%;
     object-position: center;
+    border-radius: 30px;
   }
   .bars-box{
     position: relative;
@@ -265,7 +268,7 @@
     box-shadow: 0px 2px 7px rgba(14, 55, 54/15%);
   }
   .services-box:hover{
-    background: #02225a;
+    background: #cad7ee;
   }
   .services-box h3{
     font-size: 1rem;
